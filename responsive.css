@@ -6,7 +6,8 @@
     .nav-menus,
     .banner-container,
     .gamer-container,
-    .play-instant-container
+    .play-instant-container,
+    .play-games-container
     {
         flex-direction: column;
     }
@@ -19,7 +20,9 @@
     .nav-menus a{
         margin-bottom: 25px;
     }
-    .banner-container{
+    .banner-container,
+    .play-games-container
+    {
         flex-direction: column-reverse;
         align-items: center;
         gap: 0px;
@@ -72,6 +75,25 @@
         top: -120px;
         left: -60px;
     }
+    .play-games-container{
+        margin-left: 0px;
+        gap: 50px;
+        margin-right: 0px;
+    }
+    .play-games-content{
+        text-align: center;
+    }
+    .play-games-img img{
+        width: 75%;
+        margin-right: 80px;
+    }
+    .play-games-sub-img img{
+        width: 40%;
+        position: relative;
+        top: -120px;
+        left: 220px;
+    }
+    
 }
 
 /* responsive for tablet device  */
@@ -79,7 +101,8 @@
     .nav-container,
     .banner-container,
     .gamer-container,
-    .play-instant-container
+    .play-instant-container,
+    .play-games-container
     {
         flex-direction: column;
     }
@@ -99,7 +122,8 @@
         margin-top: 0;
     }
     .banner-container,
-    .gamer-container
+    .gamer-container,
+    .play-games-container
     {
         flex-direction: column-reverse;
         align-items: center;
@@ -143,4 +167,23 @@
         top: -200px;
         left: -90px;
     }
+    .play-games-container{
+        margin-left: 0px;
+        gap: 50px;
+        margin-right: 0px;
+    }
+    .play-games-img img{
+        width: 75%;
+        margin-right: 110px;
+    }
+    .play-games-content{
+        text-align: center;
+    }
+    .play-games-sub-img img{
+        width: 40%;
+        position: relative;
+        top: -260px;
+        left: 400px;
+    }
+    
 }
