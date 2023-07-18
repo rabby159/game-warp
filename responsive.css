@@ -7,7 +7,8 @@
     .banner-container,
     .gamer-container,
     .play-instant-container,
-    .play-games-container
+    .play-games-container,
+    .career-container
     {
         flex-direction: column;
     }
@@ -86,6 +87,7 @@
     .play-games-img img{
         width: 75%;
         margin-right: 80px;
+        margin-left: 20px;
     }
     .play-games-sub-img img{
         width: 40%;
@@ -93,7 +95,18 @@
         top: -120px;
         left: 220px;
     }
-    
+    .career-content{
+        width: auto;
+        background-size: cover;
+        padding: 30px;
+        margin: 0;
+    }
+    .career-img img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* responsive for tablet device  */
@@ -184,6 +197,18 @@
         position: relative;
         top: -260px;
         left: 400px;
+    }
+    .career-content{
+        /* width: auto; */
+        background-size: cover;
+        padding: 30px;
+        margin: 0;
+    }
+    .career-img img{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 }
