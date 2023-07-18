@@ -197,3 +197,38 @@ button{
     font-weight: 500;
     
 }
+
+/* play instant section style  */
+.play-instant-container{
+    display: flex;
+    margin-left: 400px;
+    margin-right: 240px;
+    align-items: center;
+    gap: 50px;
+}
+.play-instant-content{
+    text-align: end;
+}
+.play-instant-content span{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.play-instant-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.play-instant-describe{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #534C64;
+}
+.play-instant-img img{
+    margin-left: 140px;
+}
+.sub-img img{
+    position: relative;
+    top: -300px;
+    left: -150px;
+}
