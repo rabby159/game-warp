@@ -1,0 +1,62 @@
+/* font style for full website  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style  */
+
+/* nav section style  */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF;
+    padding: 40px 0px;
+    
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.company-name{
+    margin-left: 20px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.company-name span{
+   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.nav-menus{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+.nav-menus a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.special-manus{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.fa-brands{
+    margin-left: 15px;
+    font-size: 22px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-tiktok{
+    color: #1A6DFF;
+}
