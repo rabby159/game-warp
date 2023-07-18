@@ -1,0 +1,33 @@
+/* responsive file start here  */
+
+/* responsive for mobile device  */
+@media screen and (max-width: 576px) {
+    .nav-container,
+    .nav-menus
+    {
+        flex-direction: column;
+    }
+    .nav-logo{
+        justify-content: center;
+    }
+    .nav-menus{
+        margin-top: 40px;
+    }
+    .nav-menus a{
+        margin-bottom: 25px;
+    }
+}
+
+/* responsive for tablet device  */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .nav-container
+    {
+        flex-direction: column;
+    }
+    .nav-logo{
+        justify-content: center;
+    }
+    .nav-menus{
+        margin-top: 40px;
+    }
+}
