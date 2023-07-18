@@ -5,7 +5,8 @@
     .nav-container,
     .nav-menus,
     .banner-container,
-    .gamer-container
+    .gamer-container,
+    .play-instant-container
     {
         flex-direction: column;
     }
@@ -53,13 +54,32 @@
     .card{
         text-align: center;
     }
+    .play-instant-container{
+        margin-left: 0px;
+        gap: 50px;
+        margin-right: 0px;
+    }
+    .play-instant-content{
+        text-align: center;
+    }
+    .play-instant-img img{
+        width: 75%;
+        margin-left: 80px;
+    }
+    .sub-img img{
+        width: 40%;
+        position: relative;
+        top: -120px;
+        left: -60px;
+    }
 }
 
 /* responsive for tablet device  */
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .nav-container,
     .banner-container,
-    .gamer-container
+    .gamer-container,
+    .play-instant-container
     {
         flex-direction: column;
     }
@@ -104,5 +124,23 @@
     }
     .card{
         text-align: center;
+    }
+    .play-instant-container{
+        margin-left: 0px;
+        gap: 50px;
+        margin-right: 0px;
+    }
+    .play-instant-content{
+        text-align: center;
+    }
+    .play-instant-img img{
+        width: 75%;
+        margin-left: 110px;
+    }
+    .sub-img img{
+        width: 40%;
+        position: relative;
+        top: -200px;
+        left: -90px;
     }
 }
