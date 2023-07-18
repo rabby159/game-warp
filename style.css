@@ -79,6 +79,7 @@
 .banner-content{
     width: 900px;
     background-image: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;

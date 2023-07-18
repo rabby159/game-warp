@@ -3,7 +3,8 @@
 /* responsive for mobile device  */
 @media screen and (max-width: 576px) {
     .nav-container,
-    .nav-menus
+    .nav-menus,
+    .banner-container
     {
         flex-direction: column;
     }
@@ -16,11 +17,24 @@
     .nav-menus a{
         margin-bottom: 25px;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .banner-content{
+        width: 90%;
+        background-size: cover;
+        padding: 30px;
+    }
+    .banner-img img{
+        width: 95%;
+    }
 }
 
 /* responsive for tablet device  */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .nav-container
+    .nav-container,
+    .banner-container
     {
         flex-direction: column;
     }
@@ -29,5 +43,9 @@
     }
     .nav-menus{
         margin-top: 40px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
