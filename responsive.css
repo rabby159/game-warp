@@ -43,6 +43,16 @@
         text-align: center;
         padding: 40px;
     }
+    .online-games-container{
+        margin: 100px 0px;
+    }
+    .online-games-card{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 10px;
+    }
+    .card{
+        text-align: center;
+    }
 }
 
 /* responsive for tablet device  */
@@ -84,5 +94,15 @@
         margin-right: 0px;
         text-align: center;
         padding: 40px;
+    }
+    .online-games-container{
+        margin: 100px 0px;
+    }
+    .online-games-card{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 10px;
+    }
+    .card{
+        text-align: center;
     }
 }
