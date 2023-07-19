@@ -314,8 +314,7 @@ button{
 .new-games-container{
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 240px;
-    margin-top: 100px;
+    margin: 100px 240px;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -330,4 +329,59 @@ button{
 .name{
     font-size: 1rem;
     font-weight: 600;
+}
+
+/* footer section style */
+.footer-container{
+    background: #0B0223;
+    text-align: center;
+}
+.footer-name{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.support-content{
+    padding-bottom: 40px;
+}
+.support-content a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+.footer-icon{
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+.footer-icon a{
+    color: white;
+}
+#color{
+    color: white;
+}
+.footer-describe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.footer-describe p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.60);
+    margin-left: 20px;
+
+}
+.footer-tag{
+    padding-bottom: 100px;
+}
+.footer-tag p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
 }
