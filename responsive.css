@@ -107,6 +107,22 @@
         justify-content: center;
         align-items: center;
     }
+    .new-games-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 100px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        width: 100%;
+    }
+    .games-content{
+        align-items: center;
+        gap: 8px;
+        border-radius: 50px;
+        background: #FFF;
+        width: 20px;
+    }
 }
 
 /* responsive for tablet device  */
@@ -209,6 +225,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .new-games-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 100px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        width: 100%;
     }
     
 }
