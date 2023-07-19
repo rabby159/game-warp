@@ -15,6 +15,10 @@
     font-size: 1.1rem;
     font-weight: 600;
 }
+.btn-primary:hover{
+    background-color: #8758F1;
+    color: white;
+}
 
 /* header style  */
 
@@ -52,6 +56,9 @@
     color: #3C354F;
     font-size: 1.1rem;
     font-weight: 500;
+}
+.nav-menus a:hover{
+    color: #F948B2;
 }
 .special-manus{
     border-radius: 8px;
@@ -200,7 +207,7 @@ button{
 .card:before{
     content: '';
     position: absolute;
-    background: linear-gradient(to right, #3a393bc2, #1a1a1ba4);
+    background: linear-gradient(to right, #3a393bda, #1a1a1bb2);
     width: 100%;
     height: 100%;
     top: 0;
@@ -364,10 +371,11 @@ button{
     gap: 8px;
     border-radius: 50px;
     background: #FFF;
+    padding-right: 8px;
 }
 .games-content:hover{
     border: 1px solid #F948B2;
-    box-shadow: 0px 1px 2px gray;
+    box-shadow: 0px 2px 2px 0px gray;
     color: #F948B2;
 }
 .name{
